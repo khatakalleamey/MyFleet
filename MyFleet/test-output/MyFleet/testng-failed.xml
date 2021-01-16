@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [MyFleet]">
+  <test name="loginTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="co.qa.testCase.GeneralTest">
+        <methods>
+          <include name="bookData" invocation-numbers="1 2 3"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.qa.testCase.GeneralTest -->
+    </classes>
+  </test> <!-- loginTest(failed) -->
+</suite> <!-- Failed suite [MyFleet] -->

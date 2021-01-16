@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyFleet">
+
+	<!-- <listeners> <listener class-name="co.qa.utilities.Reporting" /> </listeners> -->
+
+
+	<test name="loginTest">
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+
+			<class name="co.qa.testCase.GeneralTest">
+				<methods>
+					<include name="loginTest" />
+					<include name="bookData" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>    
