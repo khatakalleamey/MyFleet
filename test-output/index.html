@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-MyFleet">
+              <span class="suite-name border-failed">MyFleet</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-MyFleet">
+                    <span>C:\Users\Admin\eclipse-workspace\MyFleet\testNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-MyFleet">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-MyFleet">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-MyFleet">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-MyFleet">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-MyFleet">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-MyFleet">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 3 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-MyFleet" class="hide-methods failed suite-MyFleet"> (hide)</a> <!-- hide-methods failed suite-MyFleet -->
+                      <a href="#" panel-name="suite-MyFleet" class="show-methods failed suite-MyFleet"> (show)</a> <!-- show-methods failed suite-MyFleet -->
+                    </span>
+                    <div class="method-list-content failed suite-MyFleet">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFleet" title="co.qa.testCase.GeneralTest" hash-for-method="bookData(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 930743122...)">bookData(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 930743122...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFleet" title="co.qa.testCase.GeneralTest" hash-for-method="bookData(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 930743122...)">bookData(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 930743122...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFleet" title="co.qa.testCase.GeneralTest" hash-for-method="bookData(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 930743122...)">bookData(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 930743122...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-MyFleet -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-MyFleet" class="hide-methods passed suite-MyFleet"> (hide)</a> <!-- hide-methods passed suite-MyFleet -->
+                      <a href="#" panel-name="suite-MyFleet" class="show-methods passed suite-MyFleet"> (show)</a> <!-- show-methods passed suite-MyFleet -->
+                    </span>
+                    <div class="method-list-content passed suite-MyFleet">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFleet" title="co.qa.testCase.GeneralTest" hash-for-method="bookData(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 930743122...)">bookData(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 930743122...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFleet" title="co.qa.testCase.GeneralTest" hash-for-method="bookData(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 930743122...)">bookData(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 930743122...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFleet" title="co.qa.testCase.GeneralTest" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-MyFleet -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MyFleet" class="panel MyFleet">
+          <div class="suite-MyFleet-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">co.qa.testCase.GeneralTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookData(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 930743122...)">
+                  </a> <!-- bookData(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 930743122...) -->
+                  <span class="method-name">bookData</span>
+                  <span class="parameters">(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 9307431221, 9307431221, AMEY@outlook.in, 0123, 12:00PM, Residence, PUNE, Office, MUMBAI, No, No, rdoCash, SWIFT DEZIRE, LOCAL, 4HRS 40KMS, Self, MH-12-SA-4000 ( SWIFT DEZIRE ), sa, SALMAN K)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate element with text: MH-12-SA-4000 ( SWIFT DEZIRE )
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;LAPTOP-VGLTBCK9&apos;, ip: &apos;192.168.43.227&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:150)
+	at co.qa.pageObject.BookingPage.setchooseVehicleNu(BookingPage.java:378)
+	at co.qa.testCase.GeneralTest.bookData(GeneralTest.java:222)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Perform Booking)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookData(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 930743122...)">
+                  </a> <!-- bookData(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 930743122...) -->
+                  <span class="method-name">bookData</span>
+                  <span class="parameters">(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 9307431221, 9307431221, AMEY@outlook.in, 0124, 12:00PM, Residence, PUNE, Office, MUMBAI, No, No, rdoCash, SWIFT DEZIRE, LOCAL, 4HRS 40KMS, Self, MH-12-CB-2644 ( SWIFT DEZIRE ), sa, SAKID / Rajmudra)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate element with text: MH-12-CB-2644 ( SWIFT DEZIRE )
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;LAPTOP-VGLTBCK9&apos;, ip: &apos;192.168.43.227&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:150)
+	at co.qa.pageObject.BookingPage.setchooseVehicleNu(BookingPage.java:378)
+	at co.qa.testCase.GeneralTest.bookData(GeneralTest.java:222)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Perform Booking)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookData(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 930743122...)">
+                  </a> <!-- bookData(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 930743122...) -->
+                  <span class="method-name">bookData</span>
+                  <span class="parameters">(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 9307431221, 9307431221, AMEY@outlook.in, 0122, 12:00PM, Residence, PUNE, Office, MUMBAI, No, No, rdoCash, ERTIGA, LOCAL, 4HRS 40KMS, Self, MH-12-SA-1000 ( ERTIGA ), as, AKID / Asif Tashildar)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate element with text: MH-12-SA-1000 ( ERTIGA )
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;LAPTOP-VGLTBCK9&apos;, ip: &apos;192.168.43.227&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:150)
+	at co.qa.pageObject.BookingPage.setchooseVehicleNu(BookingPage.java:378)
+	at co.qa.testCase.GeneralTest.bookData(GeneralTest.java:222)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Perform Booking)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MyFleet-class-failed -->
+          <div class="suite-MyFleet-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">co.qa.testCase.GeneralTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookData(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 930743122...)">
+                  </a> <!-- bookData(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 930743122...) -->
+                  <span class="method-name">bookData</span>
+                  <span class="parameters">(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 9307431221, 9307431221, AMEY@outlook.in, 0121, 12:00PM, Residence, PUNE, Office, MUMBAI, No, No, rdoCash, SWIFT DEZIRE, LOCAL, 4HRS 40KMS, Vendor, AN-01-AS-2323 ( SWIFT DEZIRE ), sa, SABER S)</span>
+                  <em>
+(Perform Booking)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookData(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 930743122...)">
+                  </a> <!-- bookData(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 930743122...) -->
+                  <span class="method-name">bookData</span>
+                  <span class="parameters">(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 9307431221, 9307431221, AMEY@outlook.in, 0125, 12:00PM, Residence, PUNE, Office, MUMBAI, No, No, rdoCash, SWIFT DEZIRE, LOCAL, 4HRS 40KMS, Vendor, MH-12-SA-2000 ( SWIFT DEZIRE ), ki, KIRAN SONAWANE / Vikas T)</span>
+                  <em>
+(Perform Booking)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                  <em>
+(Login to App)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MyFleet-class-passed -->
+        </div> <!-- panel MyFleet -->
+        <div panel-name="test-xml-MyFleet" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Admin\eclipse-workspace\MyFleet\testNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;-1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;MyFleet&quot;&gt;
+  &lt;test name=&quot;loginTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;co.qa.testCase.GeneralTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;loginTest&quot;/&gt;
+          &lt;include name=&quot;bookData&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- co.qa.testCase.GeneralTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- loginTest --&gt;
+&lt;/suite&gt; &lt;!-- MyFleet --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MyFleet" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MyFleet</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">loginTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MyFleet" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MyFleet</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MyFleet" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MyFleet</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MyFleet');
+function tableData_MyFleet() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'bookData')
+data.setCell(0, 2, 'co.qa.testCase.GeneralTest')
+data.setCell(0, 3, 166496);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'bookData')
+data.setCell(1, 2, 'co.qa.testCase.GeneralTest')
+data.setCell(1, 3, 166260);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'bookData')
+data.setCell(2, 2, 'co.qa.testCase.GeneralTest')
+data.setCell(2, 3, 133275);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'bookData')
+data.setCell(3, 2, 'co.qa.testCase.GeneralTest')
+data.setCell(3, 3, 132963);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'bookData')
+data.setCell(4, 2, 'co.qa.testCase.GeneralTest')
+data.setCell(4, 3, 132025);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginTest')
+data.setCell(5, 2, 'co.qa.testCase.GeneralTest')
+data.setCell(5, 3, 30223);
+window.suiteTableData['MyFleet']= { tableData: data, tableDiv: 'times-div-MyFleet'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 12 minutes</span>
+              <div id="times-div-MyFleet">
+              </div> <!-- times-div-MyFleet -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MyFleet" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MyFleet</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MyFleet" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">co.qa.testCase.GeneralTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">addFuelData</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MyFleet" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">co.qa.testCase.GeneralTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">8002 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookData(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 930743122...)</span>
+                <span class="method-start">43376 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">bookData(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 930743122...)</span>
+                <span class="method-start">209646 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">bookData(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 930743122...)</span>
+                <span class="method-start">342943 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">bookData(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 930743122...)</span>
+                <span class="method-start">475910 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookData(abc, ABC INDIA PVT. LTD.(AIPL), PUNE, Online, Rajesh, 9001510216, rajesh@test.in, AM, AMEY 930743122...)</span>
+                <span class="method-start">607938 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
